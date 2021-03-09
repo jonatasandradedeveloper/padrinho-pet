@@ -25,7 +25,7 @@ export default function Payment({navigation}) {
   return (
     <Container>
       <Content>
-        <Title>Comprar Planos</Title>
+        <Title>Comprar Plano</Title>
         <Information>
           <Name>{name}</Name>
           <Type>{type}</Type>

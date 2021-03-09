@@ -39,18 +39,18 @@ export default function index() {
       company: 'Clube dos Vira Latas',
       groomsmen: [],
     },
-    {
-      id: 2,
-      name: 'Marvel',
-      age: '3 Anos',
-      sex: 'Macho',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.',
-      image:
-        'https://www.petz.com.br/blog/wp-content/uploads/2020/08/cat-sitter-felino.jpg',
-      company: 'Ong Adote Já',
-      groomsmen: [],
-    },
+    // {
+    //   id: 2,
+    //   name: 'Marvel',
+    //   age: '3 Anos',
+    //   sex: 'Macho',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.',
+    //   image:
+    //     'https://www.petz.com.br/blog/wp-content/uploads/2020/08/cat-sitter-felino.jpg',
+    //   company: 'Ong Adote Já',
+    //   groomsmen: [],
+    // },
     {
       id: 3,
       name: 'Pingo',

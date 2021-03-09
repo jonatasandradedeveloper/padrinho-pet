@@ -7,7 +7,9 @@ target 'MyPet' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
-
+  pod 'GoogleMaps'
+  pod 'react-native-google-maps'
+  pod 'Google-Maps-iOS-Utils'
   target 'MyPetTests' do
     inherit! :complete
     # Pods for testing

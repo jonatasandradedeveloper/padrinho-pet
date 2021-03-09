@@ -82,5 +82,5 @@ export const TextRegister = styled.Text`
   color: #333;
   font-size: 18px;
   font-weight: bold;
-  top: 30px;
+  top: 10px;
 `;

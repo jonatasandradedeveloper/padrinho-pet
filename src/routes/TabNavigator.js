@@ -1,10 +1,11 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Image} from 'react-native';
+import {Image, Platform} from 'react-native';
 
 import {MainStackNavigator} from './StackNavigator';
 import Adopted from '../pages/Adopted';
+import Location from '../pages/LocationOngs';
 
 const Tab = createBottomTabNavigator();
 
@@ -22,6 +23,9 @@ const BottomTab = () => {
             case 'Adopted':
               imgSource = require('../assets/Icons/heart.png');
               break;
+            case 'Location':
+              imgSource = require('../assets/Icons/placeholder.png');
+              break;
           }
           return <Image source={imgSource} style={{width: 32, height: 32, top: 8}} />;
         },
@@ -29,11 +33,12 @@ const BottomTab = () => {
       tabBarOptions={{
         activeBackgroundColor: '#f2f2f2',
         style: {
-          height: 80,
+          height: Platform.OS === 'ios' ? 80 : 50,
         },
       }}>
       <Tab.Screen name="Home" component={MainStackNavigator} />
       <Tab.Screen name="Adopted" component={Adopted} />
+      <Tab.Screen name="Location" component={Location} />
     </Tab.Navigator>
   );
 }

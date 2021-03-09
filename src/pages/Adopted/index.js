@@ -23,32 +23,32 @@ import SearchIcon from '../../assets/Icons/search.png';
 
 export default function Adopted({navigation}) {
   const data = [
-    {
-      id: 1,
-      name: 'Pitter',
-      age: '3 Anos',
-      sex: 'Macho',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.',
-      image:
-        'https://www.petz.com.br/blog/wp-content/uploads/2019/06/polivitaminico-para-caes.jpg',
-      company: 'Ong Adote Já',
-      groomsmen: [
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-        {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
-      ],
-    },
+    // {
+    //   id: 1,
+    //   name: 'Pitter',
+    //   age: '3 Anos',
+    //   sex: 'Macho',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.',
+    //   image:
+    //     'https://www.petz.com.br/blog/wp-content/uploads/2019/06/polivitaminico-para-caes.jpg',
+    //   company: 'Ong Adote Já',
+    //   groomsmen: [
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //     {images: 'https://www.contentwriter.com.my/wp-content/uploads/2020/09/user.png'},
+    //   ],
+    // },
     {
       id: 2,
       name: 'Bug',

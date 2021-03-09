@@ -62,7 +62,7 @@ export default function Pet() {
         <TextInformation numberOfLines={1}>{company}</TextInformation>
       </Information>
 
-      <TextDescription numberOfLines={5}>
+      <TextDescription numberOfLines={3}>
         {description}
       </TextDescription>
 

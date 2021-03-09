@@ -46,6 +46,7 @@ export const Input = styled.TextInput`
   border: 1px solid #f2f2f2;
   margin: 10px 20px;
   padding: 15px;
+  height: 60px;
   border-radius: 8px;
   top: 20px;
 `;
@@ -53,6 +54,7 @@ export const Input = styled.TextInput`
 export const Finish = styled.TouchableOpacity`
   background: #f45;
   margin: 20px;
+  top: 20px;
   padding: 20px;
   border-radius: 8px;
 `;

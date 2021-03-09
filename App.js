@@ -8,7 +8,7 @@ import BottomTab from './src/routes/TabNavigator';
 export default function App() {
   return (
     <NavigationContainer>
-      <StatusBar barStyle = "dark-content" hidden = {false} translucent = {true} />
+      <StatusBar barStyle = "dark-content" hidden = {true} translucent = {true} />
 
       <BottomTab />
     </NavigationContainer>
