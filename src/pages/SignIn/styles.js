@@ -60,7 +60,6 @@ export const Google = styled.TouchableOpacity`
   background: #fbbc07;
   align-items: center;
   border-radius: 5px;
-  margin-bottom: 10px;
 `;
 
 export const Register = styled.TouchableOpacity`
@@ -82,5 +81,22 @@ export const TextRegister = styled.Text`
   color: #333;
   font-size: 18px;
   font-weight: bold;
-  top: 10px;
+  top: 0px;
+`;
+
+export const Grup = styled.View`
+  margin: 20px 0;
+`;
+
+export const TitleLogo = styled.Text`
+  color: #f45;
+  text-align: center;
+  font-size: 30px;
+`;
+
+export const Logo = styled.Image`
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  align-self: center;
 `;

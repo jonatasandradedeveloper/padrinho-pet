@@ -12,7 +12,12 @@ import {
   Register,
   TextRegister,
   Content,
+  TitleLogo,
+  Grup,
+  Logo,
 } from './styles';
+
+import Love from '../../assets/Icons/love.png';
 
 export default function index({navigation}) {
   const route = useRoute();
@@ -22,7 +27,10 @@ export default function index({navigation}) {
   return (
     <Container>
       <Content>
-        <Title>Padrinho Pet</Title>
+        <Grup>
+          <Logo source={Love} />
+          <TitleLogo>Padrinho Pet</TitleLogo>
+        </Grup>
         <Input placeholderTextColor="#ccc" placeholder="Digite seu Email" />
         <Input
           placeholderTextColor="#ccc"

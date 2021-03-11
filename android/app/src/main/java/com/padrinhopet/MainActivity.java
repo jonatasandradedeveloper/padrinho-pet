@@ -1,4 +1,4 @@
-package com.mypet;
+package com.padrinhopet;
 
 import com.facebook.react.ReactActivity;
 

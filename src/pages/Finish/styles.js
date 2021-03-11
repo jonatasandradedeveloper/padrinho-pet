@@ -13,7 +13,7 @@ export const Content = styled.ScrollView`
 
 export const Title = styled.Text`
   align-self: center;
-  font-size: 30px;
+  font-size: 20px;
   color: #333;
   padding: 10px;
   text-align: center;
@@ -44,4 +44,21 @@ export const ContentIcons = styled.View`
 
 export const Icon = styled.Image`
   margin-right: 20px;
+`;
+
+export const Grup = styled.View`
+  margin: 20px 0;
+`;
+
+export const TitleLogo = styled.Text`
+  color: #f45;
+  text-align: center;
+  font-size: 30px;
+`;
+
+export const Logo = styled.Image`
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  align-self: center;
 `;

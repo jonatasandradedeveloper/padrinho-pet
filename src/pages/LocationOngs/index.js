@@ -11,7 +11,6 @@ React.createRef();
 
 const LocationOngs: React.FC = () => {
   const navigation = useNavigation();
-  const mapRef = useRef(null);
   const [orphanages, setOrphanages] = useState([
     {
       id: 1,
@@ -39,18 +38,11 @@ const LocationOngs: React.FC = () => {
     },
   ]);
 
-  useEffect(() => {
-    if (mapRef) {
-      console.log(mapRef);
-    }
-  });
-
   return (
     <View style={styles.container}>
       <MapView
         provider={PROVIDER_GOOGLE}
         style={styles.map}
-        ref={mapRef}
         initialRegion={{
           latitude: -23.4184976,
           longitude: -46.0549664,

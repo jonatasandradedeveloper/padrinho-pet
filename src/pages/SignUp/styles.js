@@ -83,3 +83,20 @@ export const TextRegister = styled.Text`
   font-size: 18px;
   font-weight: bold;
 `;
+
+export const Grup = styled.View`
+  margin: 20px 0;
+`;
+
+export const TitleLogo = styled.Text`
+  color: #f45;
+  text-align: center;
+  font-size: 30px;
+`;
+
+export const Logo = styled.Image`
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  align-self: center;
+`;

@@ -81,17 +81,18 @@ export const Input = styled.TextInput`
 `;
 
 export const Grup = styled.View`
-  /* flex-direction: row; */
+  margin: 20px 0;
 `;
 
 export const Title = styled.Text`
-  margin-left: 20px;
-  border: 2px solid #f45;
-  width: 120px;
-  top: 20px;
   color: #f45;
-  padding: 10px;
   text-align: center;
-  margin: 20px 0 20px 20px;
-  border-radius: 5px;
+  font-size: 30px;
+`;
+
+export const Logo = styled.Image`
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  align-self: center;
 `;

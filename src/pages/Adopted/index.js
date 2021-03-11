@@ -17,9 +17,11 @@ import {
   Input,
   Title,
   Grup,
+  Logo,
 } from './styles';
 import Share from '../../assets/Icons/share.png';
 import SearchIcon from '../../assets/Icons/search.png';
+import Love from '../../assets/Icons/love.png';
 
 export default function Adopted({navigation}) {
   const data = [
@@ -105,7 +107,10 @@ export default function Adopted({navigation}) {
   return (
     <Container>
       <Grup>
+      <Logo source={Love} />
       <Title>Padrinho Pet</Title>
+      </Grup>
+
       <Search>
         <Input
           placeholderTextColor="#000"
@@ -113,7 +118,6 @@ export default function Adopted({navigation}) {
         />
         <IconInput source={SearchIcon} />
       </Search>
-      </Grup>
       {data.length > 0 ? (
         <FlatList
           data={data}
